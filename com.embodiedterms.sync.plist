@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.embodiedterms.sync</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/xuheny/Doubao/chats/2026-10-08/new-chat/embodiedterms/sync.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/xuheny/Doubao/chats/2026-10-08/new-chat/embodiedterms</string>
+
+    <!-- 每天 09:07 自动同步一次 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>7</integer>
+    </dict>
+
+    <!-- 开机/登录后若错过时间则补跑一次 -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/xuheny/Doubao/chats/2026-10-08/new-chat/embodiedterms/sync.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/xuheny/Doubao/chats/2026-10-08/new-chat/embodiedterms/sync.log</string>
+</dict>
+</plist>
