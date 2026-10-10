@@ -1,4 +1,4 @@
-# 具身智能名词表 · 交互式镜像版
+# 具身智能Wiki · 交互式镜像版
 
 原站：[https://embodiedterms.com/](https://embodiedterms.com/)
 

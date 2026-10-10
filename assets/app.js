@@ -137,7 +137,7 @@
     const t1 = data.terms.filter((t) => t.tier === 1).length;
     const seenCount = seen[lang].size;
     const L = lang === 'zh'
-      ? { h1: '具身智能新手名词表', sub: '条', cat: '类', asof: '事实截至',
+      ? { h1: '具身智能Wiki', sub: '条', cat: '类', asof: '事实截至',
           lede: '给刚入门具身智能的同学查词用。14 类按学习顺序排：先认识机器人本体（形态、零件、怎么动、怎么控制、怎么感知），再看工具和仿真，然后是数据、训练和模型，最后是公司和行业说法；每类内部也分成由浅入深的小节。',
           browse: '按类别浏览', seen: '已学', pick: '点开任意分类，按学习路径由浅入深',
           ph: '搜中文、英文或缩写，如 VLA / 逆运动学 / 宇树' }
